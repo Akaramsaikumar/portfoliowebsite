@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f7f7f5;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.head-sec {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+.menu-ietm {
+  margin-left: 30px;
+  font-size: 20px;
+}
+.project-btn {
+  background-color: #e3b732;
+  height: 25px;
+  width: 105px;
+  border: 0;
+  border-radius: 5px;
+}
+.main-head {
+  color: #e3b732;
+}
+.linked-btn {
+  height: 25px;
+  width: 105px;
+  border: 1px solid #d1cfc9;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.main-image {
+  height: 50vh;
+  margin-right: 10px;
+}
+.first-con {
+  display: flex;
+}
+.main-content {
+  padding: 50px;
+}
+@media screen and (max-width: 576px) {
+  .first-con {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-image {
+    height: 50vh;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .first-con {
+    display: flex;
+    flex-direction: row;
+  }
+  .main-image {
+    height: 40vh;
+    width: 40%;
+  }
+}
+
+.pro-head {
+  text-decoration: underline;
+  text-decoration-color: #e3b732;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 180px;
+  margin-bottom: 30px;
+}
+.user {
+  width: 250px;
+  margin-top: 10px;
+}
+.add-btn {
+  height: 25px;
+  width: 90px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #e3b732;
+  margin-top: 10px;
+  margin-left: 170px;
+}
+.proj-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.lis {
+  list-style: none;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 350px;
+  margin-right: 35px;
+  border-radius: 10px;
+  border: 0.5px solid #e3b732;
+}
+.instagram {
+  height: 20px;
+}
+.insta-btn {
+  border: 0;
+}
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 105px;
+}
+.vi-pro {
+  height: 25px;
+  width: 105px;
+  border: 1px solid #1c1c1b;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+.sample {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid #e3b732;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: #fff;
+}
+.anchor {
+  text-decoration: none;
+  color: #000;
+}
+.copyrights {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
